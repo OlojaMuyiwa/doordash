@@ -1,323 +1,216 @@
 body{
-    background-color: white;
-    margin:0%;
-    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    
-}
-
-.hero{
-        padding: 0%;
-}
-.sign{
-    width:max-content;
-    height:max-content;
-    margin-left: 70px;
-}
-.signin{
-    color:white;
-    outline: none;
-    font-size:15px;
-    text-decoration: none;
-    font-weight: 900px;
-    top:25px;
-    left: 85%;
-    position:absolute;
-    width: 100%;
-    
-}
-.signup{
-top:90px;
-    left: 85%;
-    position:absolute;
-    width: 100%;
-    
-
-}
-.button{
-    background-color: white;
-    color:black;
-    text-align:center;
-    font-size:15px;
-    display: inline-block;
-    width:150px;
-    height:100px;
-
-}
-.button1{
-    border-radius: 30px;
-   background-color: white;
-    width:101px;
-    height:40px;
-    outline: none;
-    margin:none;
-    border: none;
-    padding: 10px 25px;
-    font-weight: bolder;
-    top:14px;
-    left: 90%;
-    position:absolute;
-    
-}
-.heading{
-    font-weight: bolder;
-    display: flex; 
-    color:white;
-    position: absolute;
-    top:13%;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items:center;
-    font-size:65px;
-    border:30x;
-}
-
-.address{
-background-color: white;
-position:absolute;
-top:50%;
-left:35%;
-right: 30%;
-width:400px;
-height:45px;
-border-radius: 30px;
-bottom:30%;
-outline-color: blue;
-border: none;
-text-align: center;
-
-}
-  .link1{
-    color:white;
-    position: absolute;
-    top:60%;
-    left:43%;
-
-  }
-  a:link{
-    color:white
-    background-color:transparent
-  }
-
-
-    .row{
-        margin:100px;
-    }
-
-.dasher{
-    font-weight:300px;
-    text-align:center;
-    font-size:30px;
-}
-.store{
-    font-weight:300px;
-    text-align:center;
-    font-size:30px;
-    justify-content: center;
-    justify-items: center;
-}
-.app{
-    font-weight:300px;
-    text-align:center;
-    font-size:30px;
-    justify-content: center;
-    justify-items: center;
-}
-
-
-*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
-.column{
-    float:left;
-    width:33.33%;
-    padding:10px;
-    text-align: center;
-}
-.picture1{
-    float: right;
-    position: relative;
-    margin-top:55px;
-    margin-bottom: 30px;
-}
-.oneapp{
-    position:relative;
-    margin-top:45%;
-    margin-left: 6%;
-    font-size: 20px;
-    color:black;
-}
-.toptext{
-    font-size:40px;
-}
-.gettheapp{
- background-color: red;   
- border-radius: 30px;
-    width:100px;
-    height:35px;
-    outline:none;
-    margin:none;
-    border:none;
-    font-weight:bolder;
- position:absolute;
- left:25px;
-    color:white;
-    justify-content: center;
-    padding:10 25px;
-    text-align: center;
-    
-}
-.toptext2{
-     /* margin:150px auto; */
-    /* width:50%; */
-    /* padding:8px; */
-     float:left; 
-    position: relative; 
-    /* border-bottom: 50%; */ 
-    /* margin-bottom:70%; */ 
-     /* margin-left: 60%; */
-}
-
-.container{
-    display:flex;
+header{
 
 }
-.earn{
-text-decoration: none;
-text-align: justify;
-color: red;
-text-decoration: none;
-
-}
-a:link{
-    text-decoration: none;
-}
-a.column.storage{
-text-decoration: none;
-text-align: justify;
-margin-top: 10px;
-color: red;
-}
-a.column:link{
-    color:red;
-}
-.application{
-text-decoration: none;
-text-align: justify;
-color: red;
-}
-.row1{
-    display:flex;
-    width: 85%;
-    margin:auto;
+.navbar{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    list-style-type: none;
     justify-content: space-between;
-  }
-  .col{
-    flex-basis:25%;
-    padding:10px;
-  }
-  footer{
-    width:100%;
-     padding: 3px;
-     background-color: black;
-     color: white;
-     display: inline-block;
-   }
-   ul{
+    align-items: flex-start;
+    gap: 2rem;
+    /* padding: .5rem; */
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    
+
+}
+.nav-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    gap: 2rem;
+}
+.svg{
+    fill: #000;
+}
+.nav-items{
     list-style: none;
-    text-decoration: none;
-   }
-   ul li{
-    text-decoration: none;
-   }
- ul li a{
-    text-decoration: none;
-    color:whitesmoke;
-   }
-   a{
-    font-size:15px;
+    font-size: 1rem;
+}
+.nav-btn{
+    padding: .7rem;
+    background: #fff;
+    border-radius: 3rem;
+    color: #000;
+     border: 1px solid black; /* Change to none After you add image */
+    font-weight: 600;
+}
+.section{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
-ul li:hover{
-    color: white;
+.section h1{
+    font-size: 4rem;
+}
+.section .container{
+    position: relative;
+}
+.section .container input{
+
+    width: 250px;
+    /* max-width: 100%; */
+    min-height: 2.5em;
+    padding: .5rem;
+    border-radius: 15px;
+}
+.circle{
+    background: #f00;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    padding: .5rem;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+.items{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap:5rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.item a{
+    color: rgb(235, 23, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+.item .item-content h2{
+    font-size: 2rem;
+}
+.item .item-content p{
+    font-size: 1.5rem;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products-container{
+    display: flex;
+    padding: 3rem;
+    gap: 6rem;
+}
+.products-container .products-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.products-container .products-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.products-container .products-content p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.products-container .products-content button{
+    padding: .7rem;
+    border: none;
+    background-color: rgb(235, 23, 0);
+    max-width: 140px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 3rem;
+}
+.footer{
+    background: rgb(25, 25, 25);
+    color: #fff;
+ 
+    padding: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.cities{
+    display: flex;
+    flex-direction: column;
+    color: #f1fbff;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.city a{
+    text-decoration: none;
+    color: #ae9e88;
+}
+city a:hover{
     text-decoration: underline;
 }
-
-.col9{
-    float:left;
-    position: relative;
-    border-bottom: 10%;
-    margin-bottom:1%;
-    margin-left: 7%;
-    word-spacing: 10px;
-    letter-spacing: 2px;
-
-    font-size: 10px;
-    color: whitesmoke;
-    }
-    .col9:hover{
-        text-decoration: underline;
-    }
-    
-
-
-
-
-.media-class{
-    float: left;
-   color:whitesmoke;
-    border-bottom: 1opx;
-    position: relative;
-    margin-top:35px;
-    font-weight: 20px;
-
+.grid2{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
 }
-  .phone{
-    color:black;
-    font-size: 20px;
-    float:right;
-    position: absolute;
-    bottom: auto;
-    right:20px;
-    display:flex;
-  }
-  .googleplay{
-    font-size: 20px;
-    float:right;
-    position: relative;
-    margin-bottom: 50px;
-    right:20px;
-    display:flex;
-  }
-  .firsta{
-    position: absolute;
-    text-align: center;
-    color:white;
-    background-color: red;
-    
-    width: 35px;
-        top:52%;
-        left:62%;
-        height:25px;
-        border-radius: 100px;
-    
-  }
-  .map{
-    position: absolute;
-    text-align: center;
-    
-    
-    width:15px;
-        top:52%;
-        right:63%;
-        height:5px;
-        
-    
-  }
-  .item{
+.last{
     display: flex;
-  }
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.last a{
+    gap: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #ae9e88;
+}
+.icons i{
+    font-size: 1rem;
+    color: #ae9e88;
+    padding: .5rem;
+}
+        /* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media screen and (max-width: 900px) {
+    .products {
+        width: 100vw;
+    }
+    .products-container{
+        flex-direction: column;
+    }
+    .products-container img{
+        width: 100%;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .last{
+        flex-direction: column;
+    }
+}

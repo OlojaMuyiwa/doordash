@@ -139,3 +139,28 @@ header{
     font-size: 1rem;
     border-radius: 3rem;
 }
+
+
+
+        /* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media screen and (max-width: 900px) {
+    .products {
+        width: 100vw;
+    }
+    .products-container{
+        flex-direction: column;
+    }
+    .products-container img{
+        width: 100%;
+    }
+    .navbar ul {
+        display: none;
+    }
+}
+.footer{
+    background: #000;
+    color: #fff;
+    width: 100vw;
+    padding: 2rem;
+}

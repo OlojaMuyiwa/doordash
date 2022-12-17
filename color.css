@@ -109,6 +109,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .products-container{
     display: flex;
     padding: 3rem;

@@ -139,6 +139,41 @@ header{
     font-size: 1rem;
     border-radius: 3rem;
 }
+.footer{
+    background: rgb(25, 25, 25);
+    color: #fff;
+    width: 100vw;
+    /* padding: 2rem; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.cities{
+    display: flex;
+    flex-direction: column;
+    color: #f1fbff;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.city a{
+    text-decoration: none;
+    color: #ae9e88;
+}
+city a:hover{
+    text-decoration: underline;
+}
+.grid2{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
 
 
 
@@ -157,10 +192,7 @@ header{
     .navbar ul {
         display: none;
     }
-}
-.footer{
-    background: #000;
-    color: #fff;
-    width: 100vw;
-    padding: 2rem;
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

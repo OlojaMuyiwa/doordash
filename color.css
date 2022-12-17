@@ -26,6 +26,9 @@ header{
     font-size: 1rem;
     gap: 2rem;
 }
+.svg{
+    fill: #000;
+}
 .nav-items{
     list-style: none;
     font-size: 1rem;
@@ -33,7 +36,7 @@ header{
 .nav-btn{
     padding: .7rem;
     background: #fff;
-    border-radius: 50px;
+    border-radius: 3rem;
     color: #000;
      border: 1px solid black; /* Change to none After you add image */
     font-weight: 600;
@@ -86,6 +89,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 .item a{
     color: rgb(235, 23, 0);
@@ -97,4 +101,40 @@ header{
 }
 .item .item-content p{
     font-size: 1.5rem;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products-container{
+    display: flex;
+    padding: 3rem;
+    gap: 6rem;
+}
+.products-container .products-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.products-container .products-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.products-container .products-content p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.products-container .products-content button{
+    padding: .7rem;
+    border: none;
+    background-color: rgb(235, 23, 0);
+    max-width: 140px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 3rem;
 }
